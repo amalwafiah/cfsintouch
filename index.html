@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Interactive Website</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2 id="greeting">Hello 👋</h2>
+            <p>Click the button to change the message!</p>
+            <button onclick="changeText()">Click Me</button>
+        </section>
+
+        <section class="card">
+            <h3>Counter Feature</h3>
+            <p id="count">0</p>
+            <button onclick="increaseCount()">Increase</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 My Website</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffeef2;
+}
+
+/* Header */
+header {
+    background-color: #ff8fab;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Card */
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Buttons */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff8fab;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fb6f92;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    background-color: #ff8fab;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
