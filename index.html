@@ -3,41 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Interactive Website</title>
+    <title>Pink Pastel Website</title>
 
-    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>My Website</h1>
+        <h1>🌸 My Cute Space 🌸</h1>
         <nav>
             <a href="#">Home</a>
-            <a href="#">About</a>
+            <a href="#">Diary</a>
             <a href="#">Contact</a>
         </nav>
     </header>
 
     <main>
+        <!-- Hero -->
         <section class="hero">
-            <h2 id="greeting">Hello 👋</h2>
-            <p>Click the button to change the message!</p>
-            <button onclick="changeText()">Click Me</button>
+            <h2 id="message">Hi cutie 💕</h2>
+            <p>Welcome to my soft pink world ✨</p>
+            <button onclick="changeMessage()">Click for a surprise 💌</button>
         </section>
 
-        <section class="card">
-            <h3>Counter Feature</h3>
-            <p id="count">0</p>
-            <button onclick="increaseCount()">Increase</button>
+        <!-- Card Section -->
+        <section class="cards">
+            <div class="card">
+                <h3>🌷 Mood Counter</h3>
+                <p id="count">0</p>
+                <button onclick="increaseCount()">Feeling Happy 🎀</button>
+            </div>
+
+            <div class="card">
+                <h3>💭 Notes</h3>
+                <input type="text" id="noteInput" placeholder="Write something cute...">
+                <button onclick="addNote()">Add ✨</button>
+                <ul id="noteList"></ul>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>© 2026 My Website</p>
+        <p>Made with 💗 | 2026</p>
     </footer>
 
-    <!-- JavaScript -->
     <script src="index.js"></script>
 </body>
 </html>
