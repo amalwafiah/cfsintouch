@@ -29,12 +29,12 @@ nav a {
 
 /* Hero */
 .hero {
-    background-color: white;
+    background-color: #f82093;
     margin: 20px;
     padding: 30px;
     border-radius: 20px;
     text-align: center;
-    box-shadow: 0 5px 15px rgba(255, 182, 193, 0.4);
+    box-shadow: 0 5px 15px rgba(125, 68, 77, 0.4);
 }
 
 .hero button {
