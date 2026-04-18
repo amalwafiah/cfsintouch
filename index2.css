@@ -1,0 +1,107 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    background: #fff5f8;
+    color: #555;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    background: #ffd6e0;
+    height: 100vh;
+    padding: 20px;
+    border-radius: 0 20px 20px 0;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 10px;
+    margin: 10px 0;
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sidebar li:hover {
+    background: #ffb3c6;
+    color: white;
+}
+
+/* Main Container */
+.container {
+    flex: 1;
+    padding: 40px;
+}
+
+/* Sections */
+.section {
+    display: none;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(255, 182, 193, 0.3);
+}
+
+.section.active {
+    display: block;
+}
+
+/* Headings */
+h1 {
+    margin-bottom: 10px;
+}
+
+/* Inputs */
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ffc2d1;
+    margin-top: 10px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 15px;
+    background: #ff8fab;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #fb6f92;
+    transform: scale(1.05);
+}
+
+/* Task list */
+ul {
+    margin-top: 15px;
+    list-style: none;
+}
+
+ul li {
+    background: #ffe5ec;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
